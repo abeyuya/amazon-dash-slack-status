@@ -15,7 +15,9 @@ You can change slack `status_emoji` and `status_text` alternately by pushing ama
 2. Run script
 
 ```
-sudo node app.js
+$ node -v # => v6.10.2
+$ npm install
+$ sudo node app.js
 ```
 
 3. Push your amazon-dash-button

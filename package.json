@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scan": "dash-button scan"
   },
   "keywords": [],
   "author": "",
