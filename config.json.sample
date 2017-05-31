@@ -1,0 +1,8 @@
+{
+  "mac_address": "xx:xx:xx:xx:xx:xx",
+  "slack_token": "xoxp-1111111111-222222222222-333333333333-44444444444444444444444444444444",
+  "toggle_1_emoji": ":airplane_arriving:",
+  "toggle_1_text": "Seated",
+  "toggle_2_emoji": ":airplane_departure:",
+  "toggle_2_text": "Leave seat"
+}
