@@ -47,6 +47,7 @@ request.get(`https://slack.com/api/users.profile.get?token=${config.slack_token}
 })
 
 function showCurrentState(json) {
+  console.log(new Date());
   console.log(`your current_status_emoji: ${json.profile.status_emoji}`);
   console.log(`your current_status_text: ${json.profile.status_text}`);
 }
