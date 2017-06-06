@@ -13,7 +13,7 @@ let current_status_text = '';
 request.get(`https://slack.com/api/users.profile.get?token=${config.slack_token}&pretty=1`, (err, res, body) => {
   const json = JSON.parse(body);
   current_status_emoji = json.profile.status_emoji;
-  current_status_emoji = json.profile.status_text;
+  current_status_text = json.profile.status_text;
   showCurrentState(json);
 
   dash.on('detected', () => {
